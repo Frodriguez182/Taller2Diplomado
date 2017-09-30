@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Celulares</string>
+    <string name="agregar">Nuevo Celular</string>
+    <string name="precio">Precio</string>
+    <string name="cantidad">Memoria</string>
+    <string name="guardar">Guardar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="crear">Crear</string>
+    <string name="listar">Listar</string>
+
+    <string name="Negro">Negro</string>
+    <string name="Plata">Plata</string>
+    <string name="Blanco">Blanco</string>
+    <string name="android">Android</string>
+    <string name="ios">iOS</string>
+    <string name="samsung">Samsung</string>
+    <string name="huawei">Huawei</string>
+    <string name="nokia">nokia</string>
+    <string name="apple">Apple</string>
+    <array name="opciones">
+        <item>@string/crear</item>
+        <item>@string/listar</item>
+        <item>@string/reportes</item>
+    </array>
+
+    <array name="marca">
+        <item>@string/samsung</item>
+        <item>@string/huawei</item>
+        <item>@string/nokia</item>
+        <item>@string/apple</item>
+    </array>
+
+    <array name="sistema">
+        <item>@string/android</item>
+        <item>@string/ios</item>
+
+    </array>
+
+    <array name="color">
+        <item>@string/Negro</item>
+        <item>@string/Plata</item>
+        <item>@string/Blanco</item>
+
+    </array>
+
+    <array name="reporte">
+        <item>@string/reporte1</item>
+        <item>@string/reporte4</item>
+        <item>@string/reporte5</item>
+
+    </array>
+    <string name="mensaje_exitoso">Celular Guardado</string>
+    <string name="no">No.</string>
+    <string name="color">Color</string>
+    <string name="marca">Marca</string>
+    <string name="sistema">Sistema</string>
+    <string name="resultado">Resultado</string>
+    <string name="reporte1">Reporte Taller No 1</string>
+    <string name="reporte4">Reporte Taller No. 4</string>
+    <string name="reporte5">Reporte Taller No. 5</string>
+    <string name="reportes">Reportes</string>
+    <string name="generar">Generar</string>
+    <string name="error">Ingrese Precio y Capacidad</string>
+    <string name="error2">Ingrese Precio y Capacidad mayores a Cero</string>
+</resources>
