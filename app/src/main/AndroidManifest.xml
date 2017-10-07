@@ -9,16 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".principal">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".lista_de_celulares" />
-        <activity android:name=".reportes" />
-        <activity android:name=".nuevo_celular"></activity>
+        <activity android:name=".Opciones" />
+        <activity android:name=".Informe1" />
+        <activity android:name=".Informe2" />
+        <activity android:name=".Informe3" />
+        <activity android:name=".Registrar"></activity>
     </application>
 
 </manifest>

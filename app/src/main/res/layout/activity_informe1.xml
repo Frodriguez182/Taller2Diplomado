@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.celulares.Informe1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/lblTituloInforme1"
+            android:id="@+id/lblTituloInforme1"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblInforme1Texto"
+            android:id="@+id/lblInforme1Texto"
+            android:textStyle="bold"
+            android:paddingRight="20dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tblDates">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblInforme1No"
+                    android:id="@+id/lblInforme1No"
+                    android:textStyle="bold"
+                    android:paddingRight="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblInforme1Imei"
+                    android:id="@+id/lblInforme1Imei"
+                    android:textStyle="bold"
+                    android:paddingRight="60dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblInforme1Precio"
+                    android:id="@+id/lblInforme1Precio"
+                    android:textStyle="bold"
+                    android:paddingRight="40dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblInforme1Ram"
+                    android:id="@+id/lblInforme1Ram"
+                    android:textStyle="bold"
+                    android:paddingRight="10dp" />
+
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,65 +1,159 @@
 <resources>
     <string name="app_name">Celulares</string>
-    <string name="agregar">Nuevo Celular</string>
-    <string name="precio">Precio</string>
-    <string name="cantidad">Memoria</string>
-    <string name="guardar">Guardar</string>
-    <string name="limpiar">Limpiar</string>
-    <string name="crear">Crear</string>
-    <string name="listar">Listar</string>
 
-    <string name="Negro">Negro</string>
-    <string name="Plata">Plata</string>
-    <string name="Blanco">Blanco</string>
-    <string name="android">Android</string>
-    <string name="ios">iOS</string>
-    <string name="samsung">Samsung</string>
-    <string name="huawei">Huawei</string>
-    <string name="nokia">nokia</string>
-    <string name="apple">Apple</string>
-    <array name="opciones">
-        <item>@string/crear</item>
-        <item>@string/listar</item>
-        <item>@string/reportes</item>
-    </array>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
-    <array name="marca">
-        <item>@string/samsung</item>
-        <item>@string/huawei</item>
-        <item>@string/nokia</item>
-        <item>@string/apple</item>
-    </array>
+    <!-- Strings de la Activity Main -->
+    <string name="tituloOpciones">OPCIONES</string>
+    <string name="lblRegistrar">Registrar</string>
+    <string name="lblMostrar">Listar móviles</string>
+    <string name="lblInformes">Informes</string>
 
-    <array name="sistema">
-        <item>@string/android</item>
-        <item>@string/ios</item>
+    <!-- Lists de la Activity Main -->
+    <string-array name="lstOpciones">
+        <item>@string/lblRegistrar</item>
+        <item>@string/lblMostrar</item>
+        <item>@string/lblInformes</item>
+    </string-array>
 
-    </array>
+    <!-- Strings de la Activity Registrar -->
+    <string name="title_activity_registrar">Registrar</string>
+    <string name="lblTituloRegistrar">REGISTRAR</string>
+    <string name="lblImei">IMEI</string>
+    <string name="lblMarca">Marca</string>
+    <string name="lblOs">Sistema Operativo</string>
+    <string name="lblColor">Color</string>
+    <string name="lblPrecio">Precio</string>
+    <string name="lblRam" translatable="false">RAM</string>
+    <string name="lblGb">GB</string>
+    <string name="txtApple" translatable="false">Apple</string>
+    <string name="txtSamsung" translatable="false">Samsung</string>
+    <string name="txtHuawei" translatable="false">Huawei</string>
+    <string name="txtNokia" translatable="false">Nokia</string>
+    <string name="txtIphone" translatable="false">Iphone</string>
+    <string name="txtAndroid" translatable="false">Android</string>
+    <string name="txtWphone" translatable="false">Windows Phone</string>
+    <string name="msjTitulo">Notificación</string>
+    <string name="msjCuerpo">Equipo guardado exitosamente</string>
+    <string name="txtPlata">Plateado</string>
+    <string name="txtNegro">Negro</string>
+    <string name="txtBlanco">Blanco</string>
 
-    <array name="color">
-        <item>@string/Negro</item>
-        <item>@string/Plata</item>
-        <item>@string/Blanco</item>
+    <!-- Lists de la Activity Registrar - Marca -->
+    <string-array name="Marca_array">
+        <item>@string/txtApple</item>
+        <item>@string/txtSamsung</item>
+        <item>@string/txtHuawei</item>
+        <item>@string/txtNokia</item>
+    </string-array>
 
-    </array>
+    <!-- Lists de la Activity Registrar - Sistemas Operativos -->
+    <string-array name="os_array">
+        <item>@string/txtIphone</item>
+        <item>@string/txtAndroid</item>
+        <item>@string/txtWphone</item>
+    </string-array>
 
-    <array name="reporte">
-        <item>@string/reporte1</item>
-        <item>@string/reporte4</item>
-        <item>@string/reporte5</item>
+    <!-- Lists de la Activity Registrar - Color -->
+    <string-array name="Color_array">
+        <item>@string/txtNegro</item>
+        <item>@string/txtPlata</item>
+        <item>@string/txtBlanco</item>
+    </string-array>
 
-    </array>
-    <string name="mensaje_exitoso">Celular Guardado</string>
-    <string name="no">No.</string>
-    <string name="color">Color</string>
-    <string name="marca">Marca</string>
-    <string name="sistema">Sistema</string>
-    <string name="resultado">Resultado</string>
-    <string name="reporte1">Reporte Taller No 1</string>
-    <string name="reporte4">Reporte Taller No. 4</string>
-    <string name="reporte5">Reporte Taller No. 5</string>
-    <string name="reportes">Reportes</string>
-    <string name="generar">Generar</string>
-    <string name="error">Ingrese Precio y Capacidad</string>
-    <string name="error2">Ingrese Precio y Capacidad mayores a Cero</string>
+    <!-- Strings de la Activity Mostrar -->
+    <string name="title_activity_mostrar">Mostrar</string>
+    <string name="lblTituloMostrar">MOSTRAR</string>
+    <string name="lblImeiMostrar">IMEI</string>
+    <string name="lblMarcaMostrar">Marca</string>
+    <string name="lblOsMostrar">Sistema Operativo</string>
+    <string name="lblColorMostrar">Color</string>
+    <string name="lblPrecioMostrar">Precio</string>
+    <string name="lblRamMostrar" translatable="false">RAM</string>
+    <string name="lblGbMostrar">GB</string>
+    <string name="txtIphoneMostrar" translatable="false">Iphone</string>
+    <string name="txtAndroidMostrar" translatable="false">Android</string>
+    <string name="txtWphoneMostrar" translatable="false">Windows Phone</string>
+    <string name="msjTituloMostrar">Notificación</string>
+    <string name="msjCuerpoMostrar">Equipo guardado exitosamente</string>
+    <string name="lblNumeroMostrar">No</string>
+
+    <!-- Strings de la Activity Informes -->
+    <string name="title_activity_informes">Informes</string>
+    <string name="tituloInformes">INFORMES</string>
+    <string name="txtInforme1">Informe 1</string>
+    <string name="txtInforme2">Informe 2</string>
+    <string name="txtInforme3">Informe 3</string>
+    <string name="txtInforme4">Informe 4</string>
+    <string name="txtInforme5">Informe 5</string>
+
+    <!-- Lists de la Activity Informes -->
+    <string-array name="Informes_array">
+        <item>@string/txtInforme1</item>
+        <item>@string/txtInforme2</item>
+        <item>@string/txtInforme3</item>
+        <item>@string/txtInforme4</item>
+        <item>@string/txtInforme5</item>
+    </string-array>
+
+    <!-- Lists de la Activity Informes1 -->
+    <string name="title_activity_informe_1" translatable="false">Informe_1</string>
+    <string name="lblTituloInforme1">CELULARES SAMSUNG: NEGROS</string>
+    <string name="lblInforme1Texto">El siguiente informe muestra el precio y capacidad de Ram de los celulares marca
+samsung, negros con sistema operativo Android registrados.</string>
+    <string name="lblInforme1No">No</string>
+    <string name="lblInforme1Imei">Imei</string>
+    <string name="lblInforme1Precio">Precio</string>
+    <string name="lblInforme1Ram">RAM</string>
+    <string name="msjInforme1Cuerpo">No se ha registrado ningún equipo Samsung</string>
+
+    <!-- Lists de la Activity Informes2 -->
+    <string name="title_activity_informe_2" translatable="false">Informe_2</string>
+    <string name="lblTituloInforme2">CELULARES SAMSUNG: RAM</string>
+    <string name="lblInforme2Texto">El siguiente informe muestra todos los datos de los celulares marca Samsung con una
+capacidad de 2 a 4 GB de Ram registrados.</string>
+    <string name="lblInforme2No">No</string>
+    <string name="lblInforme2Imei">Imei</string>
+    <string name="lblInforme2Precio">Precio</string>
+    <string name="lblInforme2Ram">RAM</string>
+    <string name="lblInforme2Os">OS</string>
+    <string name="lblInforme2Marca">Marca</string>
+    <string name="lblInforme2Color">Color</string>
+
+    <!-- Lists de la Activity Informes3 -->
+    <string name="title_activity_informe_3" translatable="false">informe_3</string>
+    <string name="lblTituloInforme3">CELULAR HUAWEI: BARATO</string>
+    <string name="lblInforme3Texto">El siguiente informe muestra todos los datos del celular Huawei
+        más barato.</string>
+    <string name="lblInforme3No" translatable="false">No</string>
+    <string name="lblInforme3Imei">Imei</string>
+    <string name="lblInforme3Precio">Precio</string>
+    <string name="lblInforme3Ram" translatable="false">RAM</string>
+    <string name="lblInforme3Os" translatable="false">OS</string>
+    <string name="lblInforme3Marca">Marca</string>
+    <string name="lblInforme3Color">Color</string>
+    <string name="msjInforme3Cuerpo">No se ha registrado ningún equipo Huawei</string>
+
+    <!-- Lists de la Activity Informes4 -->
+    <string name="title_activity_informe_4" translatable="false">Informe_4</string>
+    <string name="lblTituloInforme4">CELULAR APPLE: NEGROS</string>
+    <string name="lblInforme4Texto">El siguiente informe muestra el número de celulares
+        marca Apple y color Negro.</string>
+    <string name="lblInforme4Resultado">La cantidad de equipos Apple de color Negro es: </string>
+    <string name="msjInforme4Cuerpo">No se ha registrado ningún equipo Apple</string>
+    <string name="txtInforme4NoHay">No hay regitro de celulares Apple</string>
+
+    <!-- Lists de la Activity Informes5 -->
+    <string name="title_activity_informe_5" translatable="false">Informe_5</string>
+    <string name="lblTituloInforme5">PROMEDIO COSTOS NOKIA</string>
+    <string name="lblInforme5Texto">El siguiente informe muestra el costo promedio de los celulares
+        Nokia registrado.</string>
+    <string name="lblInforme5Resultado">El promedio de costo de equipos Nokia es: </string>
+    <string name="txtInforme5NoHay">No hay regitro de celulares Nokia</string>
+
+    <!-- Strings de los Botones -->
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnLimpiar">Borrar</string>
+
 </resources>
